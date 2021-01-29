@@ -1,0 +1,16 @@
+f5be4a4966bfeb7f1539ad98da95f7f6 *DESCRIPTION
+e413b7100a262b4e4cbe96f5a9d0f13f *LICENSE
+302eb4f6d212dc57328fbd4cb12f57c4 *NAMESPACE
+d7ee95853f3429b92662b0b6cf1b6c41 *R/cordata.R
+0185ff04871677ae19092846afbb7502 *R/globals.R
+09f40ba1ab7b15bc6083a560b907cb02 *R/meechua_eff.CI.R
+d118ba717092d69d775ad5bd62535926 *R/meechua_plot.R
+daab1c880ceb3a69121445bac3012468 *R/meechua_reg.R
+28cf42453ec16ade0b4b8b5f8a39761d *R/replicate_data.R
+4b4ab2afda3f3d47391f6bcc55ba4bfd *data/language_test.rda
+579879e16a9d3a4c992ecf71eeb081d4 *man/cordata.Rd
+c8db636e7f92faaa0e4b3cea49786475 *man/language_test.Rd
+2854066f23f87b8de0fa589dc6ed0041 *man/meechua_eff.CI.Rd
+bd7c0e3f2247524f6fa613ccbb32db9e *man/meechua_print.Rd
+92318409211596fb9d18ed76ddc50313 *man/meechua_reg.Rd
+f01c894fd837a5ad6706bff7679ce5e7 *man/replicate_data.Rd
