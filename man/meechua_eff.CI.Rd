@@ -14,8 +14,11 @@
 \seealso{\link[regtomean]{meechua_reg}}
 \examples{
 # First perform replicate_data and meechua_reg
-replicate_data(language_test,50,60,"Before","After",data=language_test)
+replicate_data(50,60,"Before","After",data=language_test)
 mee_chua_sort <- mee_chua[with(mee_chua,order(mu)),]
 meechua_reg(mee_chua_sort)
-meechua_eff.CI(mod_coef,8,se_after)}
+
+# Model coeeficients (mod_coef) and se.after are stored in the environment
+# as a result from the function meechua_reg
+meechua_eff.CI(mod_coef,8,se.after)}
 

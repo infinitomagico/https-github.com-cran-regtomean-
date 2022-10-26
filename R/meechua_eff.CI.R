@@ -21,5 +21,5 @@ meechua_eff.CI<-function(x,n,se.after){
   plotCI(e.mu,treatment,error,xlab="mu", pt.bg=par("bg"),pch=21,lwd=2,scol="gray",main="Confidence Intervals")
 }
 
-#meechua_eff.CI(mod_coef,8,se_after)
+#meechua_eff.CI(mod_coef,8,se.after)
 

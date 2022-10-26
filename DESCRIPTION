@@ -1,7 +1,7 @@
 Package: regtomean
 Type: Package
 Title: Regression Toward the Mean
-Version: 1.0
+Version: 1.1
 Imports: formattable, effsize, mefa, plyr, plotrix, sjPlot, sjmisc,
         sjlabelled,
 Authors@R: c(person("Daniela", "Recchia", role = c("aut","cre"), email = "daniela.rodriguesrecchia@uni-wh.de"), person("Thomas", "Ostermann", role = "ctb") )
@@ -18,9 +18,9 @@ LazyData: true
 RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2021-01-26 08:05:57 UTC; drodriguesre
+Packaged: 2022-10-26 10:08:20 UTC; drodriguesre
 Author: Daniela Recchia [aut, cre],
   Thomas Ostermann [ctb]
 Maintainer: Daniela Recchia <daniela.rodriguesrecchia@uni-wh.de>
 Repository: CRAN
-Date/Publication: 2021-01-29 09:20:03 UTC
+Date/Publication: 2022-10-26 13:52:37 UTC

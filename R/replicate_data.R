@@ -3,11 +3,11 @@
 #' @export
 #' @import formattable
 #' @import mefa
-replicate_data<- function(x,start,end,by=NULL,Before,After,data=NULL){
+replicate_data<- function(start,end,by=NULL,Before,After,data){
   #library(mefa)
-  table2<-rep(x,101)
+  table2<-rep(data,101)
   mu<-seq(start*100,end*100, by=(end-start))
-  mu<-rep(mu,each=nrow(x))
+  mu<-rep(mu,each=nrow(data))
 
   if(!is.null(data)){
     before<-with(data,Before-mu/100)
@@ -28,4 +28,5 @@ replicate_data<- function(x,start,end,by=NULL,Before,After,data=NULL){
   print(mee_chua)
   }
 
-#replicate_data(language_test,50,60,"Before","After",data=language_test)
+#replicate_data(50,60,"Before","After",data=language_test)
+
